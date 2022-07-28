@@ -1,0 +1,79 @@
+.main {
+    max-height: 50vh;
+}
+
+.mainContent {
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fff;
+}
+
+.watsonHighlight {
+    flex: 0.25;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.watsonContainer {
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    margin-right: 20px;
+}
+
+.selectedWatson {
+    object-fit: contain;
+    max-width: min(30vw, 48vh);
+    max-height: 30vw;
+}
+
+.title {
+    font-size: 96px;
+    font-weight: 800;
+}
+
+.itemNumber {
+    color: #a1a5b0;
+    font-size: 72px;
+    align-self: center;
+}
+
+.owner {
+    display: flex;
+    margin: 10px 0;
+    height: 50px;
+}
+
+.owner>div {
+    margin: 0 5px;
+}
+
+.ownerNameAndHandle {
+    flex: 1;
+}
+
+.ownerImageContainer {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-radius: 50px;
+    overflow: hidden;
+    object-fit: contain;
+}
+
+.ownerImageContainer>img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-radius: 50px;
+    overflow: hidden;
+    object-fit: contain;
+}
+
+.watsonDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 0.75;
+}
