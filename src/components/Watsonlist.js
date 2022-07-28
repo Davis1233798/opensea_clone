@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import CollectionCard from './CollectionCard';
 import './Watsonlist.css'
 

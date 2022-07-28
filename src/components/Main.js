@@ -1,5 +1,5 @@
 import React from 'react'
-import WatsonList from './Watsonlist'
+// import WatsonList from './Watsonlist'
 // import twitterLogo from '../assets/owner/twitterLogo'
 import instagramLogo from '../assets/owner/instagram.png'
 import twitterLogo from '../assets/owner/twitter.png'
